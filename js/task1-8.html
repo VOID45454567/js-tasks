@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const SURNAME = "Пеньков ";
+        const NAME = "Никита ";
+        const PATRONYMIC = "Витальевич";
+        const OCUPATION = "Уборщик";
+        const DEGREE = "среднее специальное(не законченное)";
+        const CATEGORY = "Первая";
+        const EDUCATION = "МГТУ им Носова (Многопрофильный колледж)";
+        const DISCIPLINE = "Не преподает";
+        const NOTE = "нету"; 
+    </script>
+</head>
+<body>
+    <div class="content">
+        <script>
+            document.write("<b>" , SURNAME , NAME , PATRONYMIC , "<p></b>");
+            document.write("Должность: " , OCUPATION);
+            document.write("<p>Уровень образования: " , DEGREE);
+            document.write("<p>Категория: " , CATEGORY);
+            document.write("<p>Образование: " , EDUCATION);
+            document.write("<p>Преподаваемая дисциплина: " , DISCIPLINE);
+            document.write("<p>Примечание: " , NOTE);
+        </script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const teacher = {
+            NAME : "Никита ",
+            SURNAME : "Пеньков ",
+            PATRONYMIC : "Витальевич",
+            OCUPATION : "Уборщик",
+            DEGREE : "среднее специальное(не законченное)",
+            CATEGORY : "Первая",
+            EDUCATION : "МГТУ им Носова (Многопрофильный колледж)",
+            DISCIPLINE : "Не преподает",
+            NOTE : "нету"
+        }
+    </script>
+</head>
+<body>
+    <div class="content"></div>
+        <script>
+            document.write("<b>" , teacher.SURNAME , teacher.NAME , teacher.PATRONYMIC , "</b>");
+            document.write("<p>Должность: " , teacher.OCUPATION);
+            document.write("<p>Уровень образования: " , teacher.DEGREE);
+            document.write("<p>Категория: " , teacher.CATEGORY);
+            document.write("<p>Образование: " , teacher.EDUCATION);
+            document.write("<p>Преподаваемая дисциплина: " , teacher.DISCIPLINE);
+            document.write("<p>Примечание: " , teacher.NOTE);
+        </script>
+    </div>
+</body>
+</html>
