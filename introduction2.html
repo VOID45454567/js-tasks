@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <h1>Введите 2 числа</h1>
+        <div class="input">
+            <input id="first" type="number">
+            <input id="second" type="number">
+            <button id="btn" onclick="Calc()">Найти наибольшее</button>
+        </div>
+    </div>
+</body>
+<script>
+    function Calc(){
+        const a = parseInt(document.getElementById("first").value);
+        const b = parseInt(document.getElementById("second").value);
+        const button = document.getElementById("btn");
+        if (a<b){
+        document.write("Наибольшее" , b)
+    }else if (a === b){
+        document.write("Числа равны")
+    }else{
+        document.write("Наибольшее " , a)
+    }
+    }
+</script>
+</html>
